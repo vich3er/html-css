@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.w-1140 {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.beige {
+    background: #FAF4F2;
+}
+
+.orange {
+    background: #FF7315;
+}
+
+/*_____________ iam-mr _______________________________*/
+.sect_iam-mreza {
+    /*height: 100vh;*/
+    height: 569px;
+}
+
+.sect_iam-mreza button {
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+
+}
+
+.btn-cv {
+    border-radius: 10px;
+    color: rgba(34, 34, 34, 0.50);
+    border: 2px solid #FF9B70;
+
+}
+
+.btn-request {
+    background: #FF2950;
+    color: #F9F9F9;
+
+}
+
+.div_sect_iam-mreza {
+    display: flex;
+    flex-direction: row;
+    padding: 112px 0 125px 0;
+    gap: 167px;
+
+}
+
+.div-left-near-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.p_about-mr {
+    width: 509px;
+    color: #222;
+    font-size: 18px;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 54px;
+}
+
+.div-left-near-img h2 {
+    width: 475px;
+    color: #222;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 7px;
+}
+
+.social_med {
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    gap: 16px;
+    margin-bottom: 25px;
+}
+
+.social_med img {
+    height: 48px;
+}
+
+.div_sect_iam-mreza > img {
+    width: 406px;
+    height: 406px;
+}
+
+/*________________________________*/
+.section_120 {
+    padding: 125px 0 125px 0;
+}
+
+.div_section_120 {
+    border-radius: 35px;
+    color: #F9F9F9;
+    display: flex;
+    height: 519px;
+    gap: 32px;
+}
+
+.div_section_120 img {
+    width: 430px;
+    height: 329px;
+    margin-top: 93px;
+
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 62px; /* 86.111% */
+    margin-bottom: 16px;
+}
+
+.glad-help {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin-bottom: 19px;
+
+}
+
+.under-h1 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    margin-bottom: 19px;
+}
+
+.as-a-web-dev {
+    width: 570px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 187.5% */
+}
+
+.text-right-near-img {
+    margin-top: 62px;
+}
+
+/*______________________________________________________________________________________________*/
+.sect_why-hire-me {
+    /*height: 449px;*/
+    /*margin: 0 auto;*/
+}
+
+.sect_why-hire-me h2 {
+    color: #222;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+
+}
+
+.gridReasons {
+    padding: 100px 0 125px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:"communicative professional collaborative clientsFav";
+    gap: 60px;
+}
+
+.gridReasons div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.communicative {
+    grid-area: communicative;
+}
+
+.professional {
+    grid-area: professional;
+}
+
+.collaborative {
+    grid-area: collaborative;
+}
+
+.clientsFav {
+    grid-area: clientsFav;
+}
+
+.h3-why-hire-me {
+    color: #222;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-bottom: 12px;
+}
+
+.p-why-hire-me {
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    width: 240px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+
+}
+
+.circle {
+    height: 98px;
+    width: 98px;
+    border-radius: 100%;
+    background: rgba(34, 34, 34, 0.10);
+    position: relative;
+    margin-bottom: 51px;
+}
+
+.circle img {
+    position: absolute;
+    top: 25px;
+}
+
+.collaborative .circle img {
+    position: absolute;
+    top: 30px;
+}
+
+/*_______________________________________________________*/
+.projects-grid {
+    display: grid;
+    width: 978px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: start;
+}
+
+.projects-grid img {
+    width: 100%;
+}
+
+.portfolio > div > div {
+    display: flex;
+    justify-content: center;
+
+}
+
+.portfolio h2 {
+    text-align: start;
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    margin-bottom: 64px;
+}
+
+.portfolio {
+    padding-bottom: 125px;
+}
+
+/*_______________________________________________________*/
+.im-loved {
+    height: 643px;
+    color: #F9F9F9;
+
+}
+
+.im-loved h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    width: 609px;
+    text-align: center;
+}
+
+.abt-fellow {
+    display: flex;
+    gap: 82px;
+}
+
+.abt-fellow div {
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+    padding: 24px 55px 11px;
+}
+
+.abt-fellow p {
+    width: 419px;
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wrapper-section-im-loved {
+    display: flex;
+    flex-direction: column;
+    height: 410px;
+    padding-top: 48px;
+    gap: 111px;
+    align-items: center;
+}
+
+/*_________________________________________________________________*/
+.cardPrice {
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0px 20px 40px 0px rgba(255, 115, 21, 0.10);
+
+
+}
+
+
+.cardsTop {
+    width: 335px;
+    height: 66px;
+    border-radius: 15px 15px 0px 0px;
+    background: #FF9B70;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.div-sect-price-plans {
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+}
+
+.price-plans h2 {
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.price-plans {
+    padding: 125px 0 100px 0;
+}
+
+.cardsTop h3 {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 29.664px */
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 18px;
+
+}
+
+.cardPrice ul {
+    color: #222;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 48px;
+    margin-top: 29px;
+}
+
+.price {
+    color: #2B2B2B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 36px;
+}
+
+ul li::before {
+    content: "";
+    display: inline-block;
+    background-image: url("../img/Check.svg");
+    width: 24px;
+    height: 24px;
+    margin-right: 16.11px;
+    background-size: cover;
+    /*margin-bottom: 16px;*/
+    vertical-align: middle;
+}
+
+ul li.no::before {
+    content: "";
+    display: inline-block;
+    background-image: url("../img/Close.svg");
+    width: 24.885px;
+    height: 24px;
+    margin-right: 16.11px;
+    background-size: cover;
+    opacity: 0.5;
+    margin-top: -3px;
+}
+
+ul li.no {
+    color: rgba(34, 34, 34, 0.50)
+
+}
+
+span {
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    vertical-align: middle;
+
+}
+
+/*___________________________________________________________________________*/
+.contact div {
+    height: 224px;
+    border-radius: 25px;
+    display: flex;
+    gap: 333px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact button {
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0px 0.927px 1.924px 0px rgba(0, 0, 0, 0.01);
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact h2 {
+    width: 343px;
+    color: #F9F9F9;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 62px; /* 172.222% */
+}
+
+.contact {
+    padding-bottom: 125px;
+}
+
+/*_________________________________________________________________*/
+.blog {
+    padding-bottom: 125px;
+}
+
+.blogsCard {
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.07);
+    width: 270px;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.blogsCard img {
+
+    width: 242px;
+    height: 166.15px;
+    display: block;
+    border-radius: 15px;
+}
+
+.blogsCard p {
+    width: 240px;
+    color: rgba(34, 34, 34, 0.50);
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+    /*padding-left: 14px;*/
+}
+
+.blogsCard h3 {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 19.776px */
+    text-transform: capitalize;
+    /*padding-left: 14px;*/
+    padding-bottom: 12px;
+    padding-top: 24.1px;
+}
+
+.blog h2 {
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    padding-bottom: 48px;
+}
+
+.cardsWrapper {
+    display: flex;
+    gap: 20px;
+}
+
+header {
+
+    height: 170px;
+    background: #F1F1F1;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
