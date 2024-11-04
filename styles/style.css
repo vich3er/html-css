@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 .w-1140 {
     width: 1140px;
     margin: 0 auto;
@@ -19,8 +20,9 @@ body {
 
 /*_____________ iam-mr _______________________________*/
 .sect_iam-mreza {
-    /*height: 100vh;*/
+
     height: 569px;
+
 }
 
 .sect_iam-mreza button {
@@ -92,11 +94,13 @@ body {
 
 .social_med img {
     height: 48px;
+
 }
 
 .div_sect_iam-mreza > img {
     width: 406px;
     height: 406px;
+    filter: drop-shadow(0px 20px 40px rgba(59, 67, 242, 0.10));
 }
 
 /*________________________________*/
@@ -116,6 +120,7 @@ body {
     width: 430px;
     height: 329px;
     margin-top: 93px;
+    margin-left: 32px;
 
 }
 
